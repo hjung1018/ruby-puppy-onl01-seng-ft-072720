@@ -21,11 +21,9 @@ def self.clear_all
   @@all.clear
 end
 
-def print_all
-  @@all.each do |dog|
-  puts "#{dog}\n"
-   
-end
+def self.print_all
+    puts @@all.map{ |dog| dog.name }
+  end
 end
 
 
