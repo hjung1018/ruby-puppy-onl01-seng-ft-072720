@@ -9,17 +9,17 @@ attr_accessor :name
     @@all << self
   end
 
-# def save 
-#   @@all << 
-# end
+def save 
+  @@all << 
+end
 
-# def self.all
-#   @@all
-# end
+def self.all
+  @@all
+end
 
-# def self.clear_all
-#   @@all.clear
-# end
+def self.clear_all
+  @@all.clear
+end
 
 # # def print_all
 # #   @@all.each do |dog|
