@@ -23,7 +23,7 @@ end
 
 def print_all
   @@all.each do |dog|
-  print "#{dog}\n"
+  puts "#{dog}\n"
    
 end
 end
