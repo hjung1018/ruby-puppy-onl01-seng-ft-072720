@@ -25,6 +25,9 @@ def self.print_all
     puts @@all.map{ |dog| dog.name }
   end
 
+def save
+  @@all << self
+end
 
 
 end
